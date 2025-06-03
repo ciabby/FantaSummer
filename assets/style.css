@@ -1,0 +1,207 @@
+#barralaterale
+{
+    display: flex;
+    border: solid 2px black;
+    width: 300px;
+    height: 710px;
+    border-radius: 20px;
+}
+#logo1
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+}
+#logo2
+{
+    position: absolute;
+    left: 1336px;
+    top: -2px;
+    width: 200px;
+}
+#header
+{
+    background-color: #ccc;
+    position: absolute;
+    border: solid 2px black;
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    top: 9px;
+    left: 9px;
+    text-align: center;
+}
+#deadpool
+{
+    position: absolute;
+    left: 225px;
+    top: 27px;
+    height: 34px;
+}
+#titolo
+{
+    position: absolute;
+    top: -20px;
+    left: 65px;
+    font-size: 25px;
+}
+#titoloVisPunt
+{
+    font-size: 15px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    color: white;
+}
+#BottoneVisPunt
+{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+}
+#BottoneVisPunt:hover
+{
+    text-shadow: 1px 1px 2px red,
+                0 0 1em blue,
+                0 0 0.2em blue;
+    color: white; 
+    transform: translatex(5px);
+}
+#titoloVisVal
+{
+    font-size: 15px;
+    position: absolute;
+    top: 205px;
+    left: 35px;
+    color: white;
+}
+#bottoneVisVal
+{
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+}
+#bottoneVisVal:hover
+{
+    text-shadow: 1px 1px 2px red,
+                0 0 1em blue,
+                0 0 0.2em blue;
+    color: white; 
+    transform: translatex(5px);
+    text-transform:     var()
+}
+#titoloAssPunt
+{
+    font-size: 15px;
+    position: absolute;
+    top: 345px;
+    left: 25px;
+    color: white;
+}
+#bottoneAssPunt
+{
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+}
+#bottoneAssPunt:hover
+{
+    text-shadow: 1px 1px 2px red,
+                0 0 1em blue,
+                0 0 0.2em blue;
+    color: white; 
+    transform: translatex(5px);
+    text-transform:     var()
+}
+#titoloAggGioc1
+{
+    font-size: 15px;
+    position: absolute;
+    top: 465px;
+    left: 40px;
+    color: white;
+}
+#titoloAggGioc2
+{
+    font-size: 15px;
+    position: absolute;
+    top: 485px;
+    left: 75px;
+    color: white;
+}
+#bottoneAggGioc
+{
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+}
+#bottoneAggGioc:hover
+{
+    text-shadow: 1px 1px 2px red,
+                0 0 1em blue,
+                0 0 0.2em blue;
+    color: white; 
+    transform: translatex(5px);
+    text-transform:     var()
+}
+#tipiace
+{
+    position: absolute;
+    left: 240px;
+    top: 390px;
+    width: 400px;
+    transform: scaleX(-1);
+}
+#spiderman
+{
+    position: absolute;
+    width: 180px;
+    left: 1356px;
+    top: 548px;
+}
+body
+{
+    background: linear-gradient(#ff5400, #ff6000,#ff7900,#ff9e00);
+    display: flex;
+}
+#immagini
+{
+    display: flex;
+}
