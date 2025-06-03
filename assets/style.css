@@ -1,6 +1,5 @@
 #barralaterale
 {
-    display: flex;
     border: solid 2px black;
     width: 300px;
     height: 710px;
@@ -199,9 +198,4 @@
 body
 {
     background: linear-gradient(#ff5400, #ff6000,#ff7900,#ff9e00);
-    display: flex;
-}
-#immagini
-{
-    display: flex;
 }
