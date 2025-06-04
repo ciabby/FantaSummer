@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>FantaSummer</title>
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
-    <body>
-         
-        <aside id="barralaterale">
-            <div id="header">
-                <img id="logo1" src="foto/logo.png">
-                <h4 id="titolo">Fanta Summer</h4>
-            </div>
-            <div id="visualizzaPunteggio">
-                <h3 id="titoloVisPunt">Visualizza Il Punteggio Di Ogni Giocatore</h3>
-                <button id="BottoneVisPunt" >Visualizza  Punteggio</button>
-            </div>
-            <div id="visualizzaValPunteggio">
-                <h3 id="titoloVisVal">Visualizza Il Valore Di Ogni Sfida</h3>
-                <button id="bottoneVisVal">Visualizza Valore</button>
-            </div>
-            <div id="assegnaPunteggio">
-                <h3 id="titoloAssPunt">Assegna Il Punteggio A Un Giocatore</h3>
-                <button id="bottoneAssPunt">Assegna Punteggio</button>
-            </div>
-            <div id="AggiungiGiocatore">
-                <h3 id="titoloAggGioc1">Aggiungi Un Nuovo Giocatore</h3>
-                <h3 id="titoloAggGioc2">Al Fanta Summer</h3>
-                <button id="bottoneAggGioc">Aggiungi Giocatore</button>
-            </div>
-        </aside>
-        <div id="immagini">
-            <img id="spiderman" src="foto/spiderman.png">
-            <img id="tipiace" src="foto/ti%20piace.png">
-            <img id="deadpool" src="foto/pngegg%20(7).png">
-            <img id="logo2" src="foto/logo.png">
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanta Summer</title>
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="logo-header">
+            <img src="foto/logo.png" alt="Fanta Logo">
+            Fanta Summer
         </div>
-    </body>
+        <div id="search-bar-container">
+            <input type="text" id="search-bar" placeholder="Cerca...">
+        </div>
+    </div>
+
+    <aside id="sidebar">
+        <div class="sidebar-section">
+            <h3>Navigazione</h3>
+            <button class="sidebar-button" onclick="showContent('home')">Home</button> </div>
+
+        <div class="sidebar-section">
+            <h3>Visualizza Punteggio</h3>
+            <button class="sidebar-button" onclick="showContent('punti-giocatori')">Visualizza Punteggio Giocatori</button>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Gestisci Sfide</h3>
+            <button class="sidebar-button" onclick="showContent('aggiungi-sfida')">Aggiungi Nuova Sfida</button>
+            <button class="sidebar-button" onclick="showContent('visualizza-sfide')">Visualizza Sfide</button>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Assegna Punteggio</h3>
+            <button class="sidebar-button" onclick="showContent('assegna-punti')">Assegna Punti a Giocatore</button>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Gestisci Giocatori</h3>
+            <button class="sidebar-button" onclick="showContent('aggiungi-giocatore')">Aggiungi Nuovo Giocatore</button>
+            <button class="sidebar-button" onclick="showContent('visualizza-giocatori')">Visualizza Giocatori</button>
+        </div>
+    </aside>
+
+    <main id="main-content">
+        <img id="summer-logo" src="foto/logo.png" alt="Summer Logo">
+        <img id="spiderman-img" src="foto/spiderman.png" alt="Spiderman">
+        <img id="man-img" src="foto/ti piace.png" alt="Man Gesturing">
+        <div id="content-area">
+            <h2>Benvenuto al Fanta Summer!</h2>
+            <p>Seleziona un'opzione dalla barra laterale per iniziare.</p>
+        </div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    <script src="assets/script.js"></script>
+</body>
 </html>
